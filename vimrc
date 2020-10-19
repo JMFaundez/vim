@@ -1,12 +1,12 @@
 syntax on
 
-colorscheme solarized8  "solarized8 desert morning 
+colorscheme solarized8 "solarized8 desert morning 
 
 set background=light
 
-set tabstop=4	"a tab is four spaces
+set tabstop=2	"a tab is four spaces
 
-set shiftwidth=4
+set shiftwidth=2
 
 set  autoindent	"always set autoindenting on
 
@@ -21,6 +21,8 @@ set hlsearch	"highlight search terms
 set incsearch 	"show search matches as you type
 
 set smartindent
+
+set clipboard=unnamedplus
 
 command Bd bp\|bd \#
 
