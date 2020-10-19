@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/scratch/josfa/from-pc'
+let g:netrw_dirhist_2='/afs/mech.kth.se/home/mech/josfa/.config'
+let g:netrw_dirhist_3='/scratch/josfa/Nek5000/Nek5000-v19/tools/genmap'
+let g:netrw_dirhist_4='/scratch/josfa/3DCase/hpts_2dsts'
+let g:netrw_dirhist_5='/afs/mech.kth.se/home/mech/josfa/.cache'
+let g:netrw_dirhist_6='/scratch/josfa/.cache/thunderbird'
