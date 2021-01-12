@@ -8,6 +8,8 @@ set tabstop=2	"a tab is two spaces
 
 set shiftwidth=2 "indent using vim commands
 
+set expandtab "Convert tab to spaces
+
 set  autoindent	"always set autoindenting on
 
 set  copyindent	"
@@ -32,3 +34,6 @@ autocmd BufNewFile,BufRead SIZE set syntax=fortran
 
 
 " To turn off autoindent when pasting :set paste, then paste, :set nopaste
+let fortran_free_source=1
+let fortran_have_tabs=1
+
