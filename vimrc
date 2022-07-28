@@ -3,9 +3,6 @@ filetype plugin indent on
 
 set nocompatible
 
-colorscheme solarized8 "solarized8 desert morning 
-
-set background=light
 
 set tabstop=2	"a tab is two spaces
 
@@ -43,8 +40,13 @@ set t_Co=256
 call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
+Plug 'lifepillar/vim-solarized8'
 
 call plug#end()
+
+colorscheme solarized8 
+
+set background=light
 
 
 command Bd bp\|bd \# "delete buffer but dont close window
