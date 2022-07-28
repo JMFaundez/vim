@@ -1,7 +1,7 @@
+set nocompatible "God knows...
 syntax on 
 filetype plugin indent on "No idea, copied from internet
 
-set nocompatible "God knows...
 
 "set termguicolors "Needed for solarized8 after adding the line in .bashrc
 
