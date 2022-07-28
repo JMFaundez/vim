@@ -45,6 +45,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'lifepillar/vim-solarized8'
+Plug 'plasticboy/vim-markdown'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
