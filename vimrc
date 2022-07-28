@@ -1,21 +1,21 @@
 syntax on 
-filetype plugin indent on
+filetype plugin indent on "No idea, copied from internet
 
-set nocompatible
+set nocompatible "God knows...
 
-"set termguicolors
+set termguicolors "Needed for solarized8 after adding the line in .bashrc
 
 set tabstop=2	"a tab is two spaces
 
 set shiftwidth=2 "indent using vim commands
 
-set mouse=a
+set mouse=a "To use mouse in every mode (use shift when copy and paste)
 
-"set expandtab "Convert tab to spaces
+set expandtab "Convert tab to spaces
 
 set  autoindent	"always set autoindenting on
 
-set  copyindent	"
+set  copyindent	"copy the previous indentation on autoindenting
 
 set number	 	"always show line number
 
@@ -31,12 +31,21 @@ set colorcolumn=72
 
 set clipboard=unnamedplus "copy and paste from external programs
 
-set cursorline
+set cursorline "Highlight cursor line
 
 set title
 
+"You can use gj and gk to move by screen lines. 
+set wrap linebreak
+
+" To turn off autoindent when pasting :set paste, then paste, :set nopaste
+set pastetoggle=<F2>
+
 "set t_Co=256
 
+set nobackup
+"set backupdir=~/.vim/vimtmp//,.
+set directory=~/.vim/vimtmp//,.
 
 call plug#begin()
 
@@ -64,7 +73,15 @@ autocmd BufNewFile,BufRead *.usr set syntax=fortran
 autocmd BufNewFile,BufRead SIZE set syntax=fortran
 
 
-" To turn off autoindent when pasting :set paste, then paste, :set nopaste
+
+" When editing a file, always jump to the last cursor position
+autocmd BufReadPost *
+\ if ! exists("g:leave_my_cursor_position_alone") |
+\ if line("'\"") > 0 && line ("'\"") <= line("$") |
+\ exe "normal g'\"" |
+\ endif |
+\ endif
+
 let fortran_free_source=1
 let fortran_have_tabs=1
 
