@@ -8,7 +8,9 @@ set tabstop=2	"a tab is two spaces
 
 set shiftwidth=2 "indent using vim commands
 
-set expandtab "Convert tab to spaces
+set mouse=a
+
+"set expandtab "Convert tab to spaces
 
 set  autoindent	"always set autoindenting on
 
@@ -23,6 +25,8 @@ set hlsearch	"highlight search terms
 set incsearch 	"show search matches as you type
 
 set smartindent
+
+set colorcolumn=72
 
 set clipboard=unnamedplus "copy and paste from external programs
 

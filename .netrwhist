@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/Jose/Downloads'
+let g:netrw_dirhist_2='/home/Jose/Nek5000/tools/genmap'
+let g:netrw_dirhist_3='/home/Jose/Nek5000/examples/conj_ht_frz'
+let g:netrw_dirhist_4='/home/Jose/Nek5000/examples/eddy_uv'
+let g:netrw_dirhist_5='/home/Jose/Nek5000/examples/benard'
