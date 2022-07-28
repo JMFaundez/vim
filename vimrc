@@ -1,6 +1,8 @@
 syntax on
 filetype plugin indent on
 
+set nocompatible
+
 colorscheme solarized8 "solarized8 desert morning 
 
 set background=light
@@ -36,6 +38,14 @@ set cursorline
 set title
 
 set t_Co=256
+
+
+call plug#begin()
+
+Plug 'sheerun/vim-polyglot'
+
+call plug#end()
+
 
 command Bd bp\|bd \# "delete buffer but dont close window
 
