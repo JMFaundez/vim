@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on "No idea, copied from internet
 
 
-"set termguicolors "Needed for solarized8 after adding the line in .bashrc
+"set termguicolors "Not Needed by solarized8 after adding the line in .bashrc
 
 set tabstop=2	"a tab is two spaces
 
@@ -34,6 +34,9 @@ set clipboard=unnamedplus "copy and paste from external programs
 set cursorline "Highlight cursor line
 
 set title
+
+set wildmenu
+set wildmode=longest:list,full
 
 "You can use gj and gk to move by screen lines. 
 set wrap linebreak
