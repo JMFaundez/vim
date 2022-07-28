@@ -7,6 +7,6 @@ line in my `.bashrc` file:
 * To install the plugins:
 		
 		:PlugInstall
-* And to remove:
+* And to remove them:
 
 		:PlugClean
