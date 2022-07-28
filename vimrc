@@ -1,8 +1,9 @@
-syntax on
+syntax on 
 filetype plugin indent on
 
 set nocompatible
 
+set termguicolors
 
 set tabstop=2	"a tab is two spaces
 
@@ -34,17 +35,22 @@ set cursorline
 
 set title
 
-set t_Co=256
+"set t_Co=256
 
 
 call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
+Plug 'altercation/vim-colors-solarized'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'lifepillar/vim-solarized8'
 
 call plug#end()
 
-colorscheme solarized8 
+colorscheme solarized8
+let g:airline_theme='sol'
+"let g:solarized_termcolors=256
 
 set background=light
 
