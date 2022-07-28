@@ -1,4 +1,5 @@
 syntax on
+filetype plugin indent on
 
 colorscheme solarized8 "solarized8 desert morning 
 
@@ -29,6 +30,10 @@ set smartindent
 set colorcolumn=72
 
 set clipboard=unnamedplus "copy and paste from external programs
+
+set cursorline
+
+set title
 
 command Bd bp\|bd \# "delete buffer but dont close window
 
