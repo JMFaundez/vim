@@ -43,8 +43,9 @@ set pastetoggle=<F2>
 
 "set t_Co=256
 
-set nobackup
-"set backupdir=~/.vim/vimtmp//,.
+set nobackup "remove backup files after saved properly
+" directory to store the annoying swap and backup files
+set backupdir=~/.vim/vimtmp//,.
 set directory=~/.vim/vimtmp//,.
 
 call plug#begin()
