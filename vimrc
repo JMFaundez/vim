@@ -3,7 +3,7 @@ filetype plugin indent on
 
 set nocompatible
 
-set termguicolors
+"set termguicolors
 
 set tabstop=2	"a tab is two spaces
 
