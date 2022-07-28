@@ -35,6 +35,8 @@ set cursorline
 
 set title
 
+set t_Co=256
+
 command Bd bp\|bd \# "delete buffer but dont close window
 
 autocmd BufNewFile,BufRead *.par set syntax=fortran
