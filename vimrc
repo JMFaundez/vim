@@ -9,7 +9,7 @@ set tabstop=2	"a tab is two spaces
 
 set shiftwidth=2 "indent using vim commands
 
-set mouse=a "To use mouse in every mode (use shift when copy and paste)
+set mouse+=a "To use mouse in every mode (use shift when copy and paste)
 
 set expandtab "Convert tab to spaces
 
@@ -60,6 +60,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'lifepillar/vim-solarized8'
 Plug 'plasticboy/vim-markdown'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary'
+Plug 'w0rp/ale'
+Plug 'lervag/vimtex'
 
 call plug#end()
 
