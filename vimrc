@@ -63,10 +63,11 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 Plug 'w0rp/ale'
 Plug 'lervag/vimtex'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
-colorscheme solarized8
+colorscheme gruvbox "solarized8
 let g:airline_theme='sol'
 "let g:solarized_termcolors=256
 
