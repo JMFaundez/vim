@@ -9,7 +9,7 @@ set tabstop=2	"a tab is two spaces
 
 set shiftwidth=2 "indent using vim commands
 
-set mouse+=a "To use mouse in every mode (use shift when copy and paste)
+"set mouse+=a "To use mouse in every mode (use shift when copy and paste)
 
 set expandtab "Convert tab to spaces
 
