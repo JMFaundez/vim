@@ -52,7 +52,7 @@ set backupdir=~/.vim/vimtmp//,.
 set directory=~/.vim/vimtmp//,.
 
 
-let g:polyglot_disabled = ['octave']
+" let g:polyglot_disabled = ['octave']
 
 call plug#begin()
 
