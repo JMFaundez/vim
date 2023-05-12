@@ -51,6 +51,9 @@ set nobackup "remove backup files after saved properly
 set backupdir=~/.vim/vimtmp//,.
 set directory=~/.vim/vimtmp//,.
 
+
+let g:polyglot_disabled = ['octave']
+
 call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
