@@ -67,6 +67,7 @@ Plug 'tpope/vim-commentary'
 Plug 'w0rp/ale'
 Plug 'lervag/vimtex'
 Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
