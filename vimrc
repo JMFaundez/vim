@@ -71,10 +71,10 @@ Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
-let g:gruvbox_contrast_light='medium'
+let g:gruvbox_contrast_light='hard'
 let g:gruvbox_contrast_dark='medium'
 colorscheme gruvbox "solarized8
-"colorscheme solarized8
+"colorscheme solarized
 "let g:airline_theme='sol'
 "let g:solarized_termcolors=256
 
